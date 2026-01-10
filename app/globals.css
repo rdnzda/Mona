@@ -10,12 +10,73 @@
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+  --font-display: var(--font-cormorant);
+
+  --color-mona-cream-50: #faf2ea;
+  --color-mona-cream-100: #f5e5d6;
+  --color-mona-cream-200: #eccbac;
+  --color-mona-cream-300: #e2b183;
+  --color-mona-cream-400: #d8975a;
+  --color-mona-cream-500: #cf7d30;
+  --color-mona-cream-600: #a56427;
+  --color-mona-cream-700: #7c4b1d;
+  --color-mona-cream-800: #533213;
+  --color-mona-cream-900: #29190a;
+  --color-mona-cream-950: #1d1107;
+
+  --color-mona-ash-50: #f3f1f3;
+  --color-mona-ash-100: #e6e3e8;
+  --color-mona-ash-200: #cdc7d1;
+  --color-mona-ash-300: #b4acb9;
+  --color-mona-ash-400: #9b90a2;
+  --color-mona-ash-500: #83748b;
+  --color-mona-ash-600: #685d6f;
+  --color-mona-ash-700: #4e4653;
+  --color-mona-ash-800: #342e38;
+  --color-mona-ash-900: #1a171c;
+  --color-mona-ash-950: #121013;
+
+  --color-mona-grape-50: #efeff5;
+  --color-mona-grape-100: #dfe0ec;
+  --color-mona-grape-200: #c0c1d8;
+  --color-mona-grape-300: #a0a2c5;
+  --color-mona-grape-400: #8183b1;
+  --color-mona-grape-500: #61649e;
+  --color-mona-grape-600: #4e507e;
+  --color-mona-grape-700: #3a3c5f;
+  --color-mona-grape-800: #27283f;
+  --color-mona-grape-900: #131420;
+  --color-mona-grape-950: #0e0e16;
+
+  --color-mona-blue-50: #edeff7;
+  --color-mona-blue-100: #dbdff0;
+  --color-mona-blue-200: #b8bee0;
+  --color-mona-blue-300: #949ed1;
+  --color-mona-blue-400: #707ec2;
+  --color-mona-blue-500: #4d5eb3;
+  --color-mona-blue-600: #3d4b8f;
+  --color-mona-blue-700: #2e386b;
+  --color-mona-blue-800: #1f2547;
+  --color-mona-blue-900: #0f1324;
+  --color-mona-blue-950: #0b0d19;
+
+  --color-mona-ink-50: #eeedf7;
+  --color-mona-ink-100: #dcdbf0;
+  --color-mona-ink-200: #bab7e1;
+  --color-mona-ink-300: #9793d2;
+  --color-mona-ink-400: #756fc3;
+  --color-mona-ink-500: #524bb4;
+  --color-mona-ink-600: #423c90;
+  --color-mona-ink-700: #312d6c;
+  --color-mona-ink-800: #211e48;
+  --color-mona-ink-900: #100f24;
+  --color-mona-ink-950: #0c0b19;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --background: var(--color-mona-ink-950); /* mona-ink-950 */
+    --foreground: var(--color-mona-cream-50); /* mona-cream-50 */
   }
 }
 
